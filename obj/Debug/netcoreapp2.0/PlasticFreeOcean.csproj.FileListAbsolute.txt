@@ -1,0 +1,11 @@
+/Users/bagascita/PlasticFreeOcean/bin/Debug/netcoreapp2.0/PlasticFreeOcean.deps.json
+/Users/bagascita/PlasticFreeOcean/bin/Debug/netcoreapp2.0/PlasticFreeOcean.runtimeconfig.json
+/Users/bagascita/PlasticFreeOcean/bin/Debug/netcoreapp2.0/PlasticFreeOcean.runtimeconfig.dev.json
+/Users/bagascita/PlasticFreeOcean/bin/Debug/netcoreapp2.0/PlasticFreeOcean.dll
+/Users/bagascita/PlasticFreeOcean/bin/Debug/netcoreapp2.0/PlasticFreeOcean.pdb
+/Users/bagascita/PlasticFreeOcean/obj/Debug/netcoreapp2.0/PlasticFreeOcean.csprojAssemblyReference.cache
+/Users/bagascita/PlasticFreeOcean/obj/Debug/netcoreapp2.0/PlasticFreeOcean.csproj.CoreCompileInputs.cache
+/Users/bagascita/PlasticFreeOcean/obj/Debug/netcoreapp2.0/PlasticFreeOcean.AssemblyInfoInputs.cache
+/Users/bagascita/PlasticFreeOcean/obj/Debug/netcoreapp2.0/PlasticFreeOcean.AssemblyInfo.cs
+/Users/bagascita/PlasticFreeOcean/obj/Debug/netcoreapp2.0/PlasticFreeOcean.dll
+/Users/bagascita/PlasticFreeOcean/obj/Debug/netcoreapp2.0/PlasticFreeOcean.pdb
