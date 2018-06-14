@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{D5217EFF-C9AF-470D-96B9-5C7A674333CA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Migrations/InitialMigration.cs">
+    <Files>
+      <File FileName="Controllers/UsersController.cs" Line="24" Column="15" />
+      <File FileName="Controllers/ValuesController.cs" Line="9" Column="17" />
+      <File FileName="appsettings.json" Line="15" Column="25" />
+      <File FileName="Models/PlasticFreeOceanContext.cs" Line="11" Column="9" />
+      <File FileName="Startup.cs" Line="19" Column="10" />
+      <File FileName="Models/User.cs" Line="11" Column="12" />
+      <File FileName="Models/BaseModel.cs" Line="12" Column="1" />
+      <File FileName="Migrations/InitialMigration.cs" Line="2" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PlasticFreeOcean PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

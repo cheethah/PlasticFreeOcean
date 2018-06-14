@@ -6,11 +6,14 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
     <PackageReference Include="NSwag.AspNetCore" Version="11.17.13" />
+    <PackageReference Include="MySql.Data" Version="8.0.11" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,4 +24,8 @@
   <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.0" />
 </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Controllers\ValueController.cs" />
+    <Compile Remove="Controllers\Values2Controller.cs" />
+  </ItemGroup>
 </Project>

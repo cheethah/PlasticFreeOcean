@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PlasticFreeOcean.Controllers
 {
-    [Route("api/user")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -16,28 +16,11 @@ namespace PlasticFreeOcean.Controllers
         public UsersController(PlasticFreeOceanContext context)
         {
             _context = context;
-
-            if (_context.Users.Count() == 0)
-            {
-                _context.Users.Add(new User { Email = "bagas.cita@gmail.com",IsBlocked = false, IsNeedtoReset= false, Name = "bagas", password = "ZXasqw12" });
-                _context.SaveChanges();
-            }
         }
         [HttpGet]
-        public IActionResult Get()
+        public IEnumerable<User> Get()
         {
-            return Ok();
-        }
-
-        [HttpGet("{id}", Name = "GetUser")]
-        public ActionResult<User> GetById(long id)
-        {
-            var item = _context.Users.Find(id);
-            if (item == null)
-            {
-                return NotFound();
-            }
-            return item;
-        }       
+            return _context.Users;
+        }     
     }
 }
