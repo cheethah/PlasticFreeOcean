@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{D5217EFF-C9AF-470D-96B9-5C7A674333CA}|Default">
+﻿<Properties StartupConfiguration="{D5217EFF-C9AF-470D-96B9-5C7A674333CA}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.Workbench ActiveDocument="Migrations/InitialMigration.cs">
     <Files>
       <File FileName="Controllers/UsersController.cs" Line="24" Column="15" />

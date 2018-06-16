@@ -8,6 +8,7 @@ using NJsonSchema;
 using NSwag.AspNetCore;
 using System.Reflection;
 using Pomelo.EntityFrameworkCore.MySql;
+using System;
 
 namespace PlasticFreeOcean
 {
@@ -24,7 +25,8 @@ namespace PlasticFreeOcean
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<PlasticFreeOceanContext>(options =>
-                 options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
+                 options.UseMySql(Configuration.GetConnectionString("DefaultConnection")))
+                    .AddUnitOfWork<PlasticFreeOceanContext>();
             
             services.AddMvc();
         }

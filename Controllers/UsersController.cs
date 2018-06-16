@@ -18,9 +18,23 @@ namespace PlasticFreeOcean.Controllers
             _context = context;
         }
         [HttpGet]
-        public IEnumerable<User> Get()
+        public IEnumerable<User> User()
         {
             return _context.Users;
-        }     
+        }
+        //[HttpPost]
+        ////public ActionResult User(){
+            
+        //}
+        //[HttpDelete]
+        //public ActionResult User()
+        //{
+
+        //}
+        //[HttpPut]
+        //public ActionResult User()
+        //{
+
+        //}
     }
 }

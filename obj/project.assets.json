@@ -2196,6 +2196,19 @@
       "Microsoft.EntityFrameworkCore.Analyzers/2.1.0": {
         "type": "package"
       },
+      "Microsoft.EntityFrameworkCore.AutoHistory/2.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.1",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.AutoHistory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.AutoHistory.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Design/2.1.0": {
         "type": "package",
         "dependencies": {
@@ -2285,6 +2298,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.UnitOfWork/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.AutoHistory": "2.0.3",
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.UnitOfWork.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.UnitOfWork.dll": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/2.1.0": {
@@ -3323,7 +3349,7 @@
           "lib/netcoreapp2.0/MySql.Data.dll": {}
         }
       },
-      "MySqlConnector/0.32.0": {
+      "MySqlConnector/0.40.4": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.3.0",
@@ -3487,13 +3513,13 @@
           "lib/netstandard1.0/NSwag.SwaggerGeneration.WebApi.dll": {}
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/2.0.1": {
+      "Pomelo.EntityFrameworkCore.MySql/2.1.0-rc1-final": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "2.0.1",
-          "Microsoft.Extensions.Logging.Console": "2.0.0",
-          "MySqlConnector": "0.32.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.0",
+          "Microsoft.Extensions.Logging.Console": "2.1.0",
+          "MySqlConnector": "0.40.4",
           "Pomelo.JsonObject": "1.1.1"
         },
         "compile": {
@@ -7390,6 +7416,17 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.AutoHistory/2.0.3": {
+      "sha512": "h9u6z0v9sgzZIBPTaamiXDofvGPP4/zBEvxSBJq8M1NQ1iRPmWubiybilMcg4XrO+gRvjQcuiPnxx0h7iuTFqA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.autohistory/2.0.3",
+      "files": [
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.AutoHistory.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.AutoHistory.xml",
+        "microsoft.entityframeworkcore.autohistory.2.0.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.autohistory.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.Design/2.1.0": {
       "sha512": "Y9Pvh2kZPWjoy/XB1/iGoGHHd75p+ILRPZZwxDCHEavUbDpcyyEEFSnZEn0HOBtrVh8TrZEmrCBMtKXEyFiAfA==",
       "type": "package",
@@ -7485,6 +7522,17 @@
         "tools/net461/win-x86/ef.exe",
         "tools/netcoreapp2.0/any/ef.dll",
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.UnitOfWork/2.0.4": {
+      "sha512": "2eqjnx0SHdZHwa3IRnvca3QE2/DB9dg/taSYbcqjDHX2WdA5fmFUx2CieJt1Q/qRiNCo+uuSz9vXfBQcv7BIPg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.unitofwork/2.0.4",
+      "files": [
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.UnitOfWork.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.UnitOfWork.xml",
+        "microsoft.entityframeworkcore.unitofwork.2.0.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.unitofwork.nuspec"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/2.1.0": {
@@ -8676,16 +8724,16 @@
         "mysql.data.nuspec"
       ]
     },
-    "MySqlConnector/0.32.0": {
-      "sha512": "BsPX6w3Ctb6JSZlMPf+LNad+de6L4EWgovU5vjnkWq9m09KW9GySHwcAdWgXobPgke9uK706JzDdmRxQriUa1w==",
+    "MySqlConnector/0.40.4": {
+      "sha512": "B2d52AJVHhq5pjV415woBZUgafbiWAQbWekrzwqeZhUx5wCIXstojwtx5N2gGfAHqCmY1GDuXaPS58OZHd4wdg==",
       "type": "package",
-      "path": "mysqlconnector/0.32.0",
+      "path": "mysqlconnector/0.40.4",
       "files": [
         "lib/net45/MySqlConnector.dll",
         "lib/net46/MySqlConnector.dll",
         "lib/netstandard1.3/MySqlConnector.dll",
         "lib/netstandard2.0/MySqlConnector.dll",
-        "mysqlconnector.0.32.0.nupkg.sha512",
+        "mysqlconnector.0.40.4.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },
@@ -8950,13 +8998,13 @@
         "nswag.swaggergeneration.webapi.nuspec"
       ]
     },
-    "Pomelo.EntityFrameworkCore.MySql/2.0.1": {
-      "sha512": "7EvKOe8hczKfgeeG7JIlHLUb3Pc+OrM4xQwhYb1a2sNdnDMMTMH203zKeeetSP6HBaoZqaBJTAjliNtJDkGFsA==",
+    "Pomelo.EntityFrameworkCore.MySql/2.1.0-rc1-final": {
+      "sha512": "3V6fmhTxvKAU+n8HCgtt1k8RZEqgZ5QdUZhl42rt06RgcIcG2uEd0Rq8aCBADesMXAnTNdMTTkPkchOTftPO2w==",
       "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/2.0.1",
+      "path": "pomelo.entityframeworkcore.mysql/2.1.0-rc1-final",
       "files": [
         "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll",
-        "pomelo.entityframeworkcore.mysql.2.0.1.nupkg.sha512",
+        "pomelo.entityframeworkcore.mysql.2.1.0-rc1-final.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
@@ -14238,10 +14286,13 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.All >= 2.1.0",
       "Microsoft.AspNetCore.App >= 2.1.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.1.0",
+      "Microsoft.EntityFrameworkCore.UnitOfWork >= 2.0.4",
       "Microsoft.NETCore.App >= 2.1.0",
       "MySql.Data >= 8.0.11",
       "NSwag.AspNetCore >= 11.17.13",
-      "Pomelo.EntityFrameworkCore.MySql >= 2.0.1"
+      "Newtonsoft.Json >= 11.0.2",
+      "Pomelo.EntityFrameworkCore.MySql >= 2.1.0-rc1-final"
     ]
   },
   "packageFolders": {
@@ -14294,6 +14345,10 @@
             "target": "Package",
             "version": "2.1.0"
           },
+          "Microsoft.EntityFrameworkCore.UnitOfWork": {
+            "target": "Package",
+            "version": "2.0.4"
+          },
           "NSwag.AspNetCore": {
             "target": "Package",
             "version": "11.17.13"
@@ -14302,14 +14357,22 @@
             "target": "Package",
             "version": "8.0.11"
           },
+          "Pomelo.EntityFrameworkCore.MySql": {
+            "target": "Package",
+            "version": "2.1.0-rc1-final"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "11.0.2"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "target": "Package",
+            "version": "2.1.0"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
             "version": "2.1.0"
-          },
-          "Pomelo.EntityFrameworkCore.MySql": {
-            "target": "Package",
-            "version": "2.0.1"
           }
         },
         "imports": [
