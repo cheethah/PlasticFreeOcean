@@ -1,19 +1,30 @@
 ﻿<Properties StartupConfiguration="{D5217EFF-C9AF-470D-96B9-5C7A674333CA}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Migrations/InitialMigration.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/AccountHelper.cs">
     <Files>
-      <File FileName="Controllers/UsersController.cs" Line="24" Column="15" />
-      <File FileName="Controllers/ValuesController.cs" Line="9" Column="17" />
-      <File FileName="appsettings.json" Line="15" Column="25" />
-      <File FileName="Models/PlasticFreeOceanContext.cs" Line="11" Column="9" />
-      <File FileName="Startup.cs" Line="19" Column="10" />
-      <File FileName="Models/User.cs" Line="11" Column="12" />
-      <File FileName="Models/BaseModel.cs" Line="12" Column="1" />
-      <File FileName="Migrations/InitialMigration.cs" Line="2" Column="27" />
+      <File FileName="Controllers/UsersController.cs" Line="57" Column="1" />
+      <File FileName="Services/IAccountHelper.cs" Line="12" Column="22" />
+      <File FileName="Services/AccountHelper.cs" Line="109" Column="1" />
+      <File FileName="IdentityModel/LoginUser.cs" Line="8" Column="31" />
+      <File FileName="Services/IEmailService.cs" Line="8" Column="16" />
+      <File FileName="Services/DeviceService.cs" Line="27" Column="39" />
+      <File FileName="Services/EmailService.cs" Line="27" Column="61" />
+      <File FileName="Startup.cs" Line="118" Column="19" />
+      <File FileName="Program.cs" Line="21" Column="1" />
+      <File FileName="appsettings.json" Line="45" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Catchpoint enabled="false" exceptionName="System.Exception" includeSubclasses="True" />
+      <Breakpoint file="/Users/bagascita/PlasticFreeOcean/Controllers/UsersController.cs" relfile="Controllers/UsersController.cs" line="90" column="1" />
+      <Breakpoint file="/Users/bagascita/PlasticFreeOcean/Controllers/AuthorizationController.cs" relfile="Controllers/AuthorizationController.cs" line="97" column="25" />
+      <Breakpoint file="/Users/bagascita/PlasticFreeOcean/Controllers/AuthorizationController.cs" relfile="Controllers/AuthorizationController.cs" line="59" column="1" />
+      <Breakpoint file="/Users/bagascita/PlasticFreeOcean/Controllers/AuthorizationController.cs" relfile="Controllers/AuthorizationController.cs" line="66" column="1" />
+      <Breakpoint file="/Users/bagascita/PlasticFreeOcean/Services/AccountHelper.cs" relfile="Services/AccountHelper.cs" line="120" column="1" />
+      <Breakpoint file="/Users/bagascita/PlasticFreeOcean/Controllers/UsersController.cs" relfile="Controllers/UsersController.cs" line="57" column="1" />
+      <Breakpoint file="/Users/bagascita/PlasticFreeOcean/Services/AccountHelper.cs" relfile="Services/AccountHelper.cs" line="114" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

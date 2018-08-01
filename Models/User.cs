@@ -1,14 +1,17 @@
 using System;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 
 namespace PlasticFreeOcean.Models
 {
-    public class User : BaseModel
+    public class User : IdentityUser<Guid>
     {
-        public long Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string password { get; set; }
-        public bool IsBlocked { get; set; }
-        public bool IsNeedtoReset { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Gender { get; set; }
+        public bool IsNeedToResetPassword { get; set; }
+        public bool IsDeleted { get; set; }
+
     }
 }
